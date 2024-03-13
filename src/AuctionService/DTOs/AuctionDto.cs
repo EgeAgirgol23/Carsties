@@ -1,7 +1,9 @@
-﻿namespace AuctionService.DTOs;
+﻿﻿namespace AuctionService.DTOs;
 
 public class AuctionDto
 {
+    internal readonly object Item;
+
     public Guid Id { get; set; }
     public int ReservePrice { get; set; }
     public string Seller { get; set; }
